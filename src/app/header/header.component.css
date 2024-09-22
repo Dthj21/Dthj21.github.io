@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Espaciado inferior para separar del contenido */
+}
+
+td {
+    padding: 15px; /* Espaciado interno para celdas */
+    vertical-align: top; /* Alineación vertical en la parte superior */
+}
+
+p {
+    font-size: 1.4em; /* Tamaño de fuente para el nombre */
+    margin: 0; /* Sin margen para los párrafos */
+    color: #333; /* Color oscuro para el texto */
+}
+
+p:last-child {
+    font-size: 1em; /* Tamaño de fuente para la descripción */
+    color: #666; /* Color más suave para la descripción */
+}
+
+img {
+    border-radius: 50%; /* Hace la imagen circular */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+ul {
+    list-style-type: none; /* Sin estilo de lista */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margen */
+}
+
+li {
+    font-size: 1em; /* Tamaño de fuente para la lista */
+    color: #555; /* Color suave para los elementos de la lista */
+    margin-bottom: 5px; /* Espacio entre elementos de la lista */
+}
