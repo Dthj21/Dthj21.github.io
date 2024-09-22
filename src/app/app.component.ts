@@ -11,6 +11,7 @@ import { AchievementsComponent } from './achievements/achievements.component';
 @Component({
   selector: 'app-root',
   standalone: true,
+
   imports: [RouterOutlet, HeaderComponent, WorlExperienceComponent, EducationComponent, SkillsComponent, LanguagesComponent, InterestsComponent, AchievementsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
