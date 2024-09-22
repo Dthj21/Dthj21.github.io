@@ -31,12 +31,12 @@ li:hover {
 }
 
 strong {
-    font-size: 1.2em;
+    font-size: 1.2em; /* Tamaño de fuente para el nombre del interés */
     color: #0056b3; /* Color del título */
 }
 
 em {
-    color: #777; /* Color suave para la fecha */
+    color: #777; /* Color suave para la descripción */
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.9em; /* Tamaño de fuente para la descripción */
 }

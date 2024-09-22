@@ -1,0 +1,16 @@
+<h3>Logros</h3>
+<table border="0">
+    <ul *ngFor="let achievement of achievements">
+        <li>
+            <tr>
+                <td><strong>{{ achievement.titulo }}</strong></td>
+            </tr>
+            <tr>
+                <td>{{ achievement.descripcion }}</td>
+            </tr>
+            <tr>
+                <td><em>Fecha: {{ achievement.fecha }}</em></td>
+            </tr>
+        </li>
+    </ul>
+</table>

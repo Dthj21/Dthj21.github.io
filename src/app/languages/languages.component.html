@@ -1,0 +1,13 @@
+<h3>Idiomas</h3>
+<table border="0">
+    <ul *ngFor="let language of languages">
+        <li>
+            <tr>
+                <td><strong>Idioma:</strong> {{ language.nombre }}</td>
+            </tr>
+            <tr>
+                <td><strong>Nivel:</strong> {{ language.nivel }}</td>
+            </tr>
+        </li>
+    </ul>
+</table>

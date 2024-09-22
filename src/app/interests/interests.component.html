@@ -1,0 +1,13 @@
+<h3>Intereses</h3>
+<table border="0">
+    <ul *ngFor="let interest of interests">
+        <li>
+            <tr>
+                <td><strong>{{ interest.nombre }}</strong></td>
+            </tr>
+            <tr>
+                <td>{{ interest.descripcion }}</td>
+            </tr>
+        </li>
+    </ul>
+</table>
