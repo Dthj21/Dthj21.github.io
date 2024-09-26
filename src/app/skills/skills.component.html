@@ -1,0 +1,17 @@
+<h3>Skills y Competencias</h3>
+<table border="0">
+    <ul *ngFor="let skill of skills">
+        <li>
+            <tr>
+                <td><strong>{{ skill.categoria }}</strong></td>
+            </tr>
+            <ul *ngFor="let item of skill.items">
+                <li>
+                    <tr>
+                        <td>{{ item.descripcion }}</td>
+                    </tr>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</table>

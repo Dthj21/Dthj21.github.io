@@ -32,8 +32,14 @@ module.exports = function (config) {
       ]
     },
     reporters: ['progress', 'kjhtml'],
+<<<<<<< HEAD
     browsers: ['ChromeHeadlessCI'],
     customLaunchers: {
+=======
+    browsers: ['Chrome'],
+    browsers: ['ChromeHeadlessCI'],
+        customLaunchers: {
+>>>>>>> develop
           ChromeHeadlessCI: {
            base: 'ChromeHeadless',
           flags: ['--no-sandbox']
