@@ -1,0 +1,42 @@
+h3 {
+    font-size: 1.6em;
+    margin-bottom: 20px;
+    color: #333; /* Color oscuro para el encabezado */
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+li:hover {
+    background-color: #f9f9f9; /* Cambio de color al pasar el mouse */
+}
+
+strong {
+    font-size: 1.2em; /* Tamaño de fuente para el nombre del interés */
+    color: #0056b3; /* Color del título */
+}
+
+em {
+    color: #777; /* Color suave para la descripción */
+    font-style: italic;
+    font-size: 0.9em; /* Tamaño de fuente para la descripción */
+}

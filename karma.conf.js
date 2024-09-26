@@ -34,13 +34,13 @@ module.exports = function (config) {
     reporters: ['progress', 'kjhtml'],
     browsers: ['ChromeHeadlessCI'],
         customLaunchers: {
+    customLaunchers: {
           ChromeHeadlessCI: {
            base: 'ChromeHeadless',
           flags: ['--no-sandbox']
          }
       },
     singleRun: false,
-
     restartOnFileChange: true
   });
 };

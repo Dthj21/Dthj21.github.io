@@ -1,0 +1,35 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0; /* Espaciado vertical para separar la tabla del resto del contenido */
+    border: 1px solid #ccc; /* Borde gris claro para la tabla */
+    border-radius: 5px; /* Bordes redondeados para la tabla */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para la tabla */
+}
+
+td {
+    padding: 20px; /* Espaciado interno para las celdas */
+    vertical-align: top; /* Alineación vertical en la parte superior */
+}
+
+td[colspan="2"] {
+    text-align: center; /* Centrar el contenido del encabezado */
+    border-bottom: 2px solid #4a90e2; /* Borde inferior más grueso para el encabezado */
+}
+
+h3 {
+    margin: 0; /* Sin margen para los encabezados en las secciones */
+}
+
+app-header {
+    margin-bottom: 15px; /* Espaciado inferior para separar el encabezado de las secciones */
+}
+
+app-worl-experience,
+app-education,
+app-skills,
+app-languages,
+app-interests,
+app-achievements {
+    margin-bottom: 20px; /* Espacio entre cada sección */
+}
