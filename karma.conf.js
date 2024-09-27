@@ -35,12 +35,14 @@ module.exports = function (config) {
     browsers: ['ChromeHeadlessCI'],
         customLaunchers: {
     customLaunchers: {
-          ChromeHeadlessCI: {
-           base: 'ChromeHeadless',
-          flags: ['--no-sandbox']
-         }
-      },
+      ChromeHeadlessCI: {
+        base: 'ChromeHeadless',
+        flags: ['--no-sandbox']
+      }
+    },
     singleRun: false,
     restartOnFileChange: true
   });
 };
+
+
